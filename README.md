@@ -1,4 +1,3 @@
-# scrap-weather-data-with-python
 Scraping Weather Data with Python (Using Python-Selenium)
 -----
 <img src="https://i.ibb.co/1vJVtLs/Discord-Projects-Banner.jpg" width="350">
