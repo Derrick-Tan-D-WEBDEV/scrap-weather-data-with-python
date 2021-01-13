@@ -11,10 +11,10 @@ from termcolor import cprint
 from pyfiglet import figlet_format
 
 mydb = mysql.connector.connect(
-    host="sql138.main-hosting.eu",
-    user="u874427471_API",
-    password="Api123456",
-    database="u874427471_API"
+    host="your_host",
+    user="your_username",
+    password="your_pwd",
+    database="your_db"
 )
 def check_database(date):
     try: 
@@ -36,7 +36,7 @@ def check_database(date):
 cprint(figlet_format('lets', font='starwars'),'blue', attrs=['blink'])
 cprint(figlet_format('scrap', font='starwars'),'blue', attrs=['bold'])
 
-PATH = "D:\Youtube\Python Projects\WebScrapingProjects\ScrapingWeather\chromedriver\chromedriver.exe"
+PATH = "chrome_driver_path"
 options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")
 options.add_argument("--headless")
